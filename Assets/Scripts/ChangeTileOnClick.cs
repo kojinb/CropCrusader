@@ -18,12 +18,6 @@ public class ChangeTileOnClick : MonoBehaviour
 
     private Vector3Int previousMousePos = new Vector3Int(); 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -33,9 +27,9 @@ public class ChangeTileOnClick : MonoBehaviour
         if (!mousePos.Equals(previousMousePos) && inaccessibleMap.HasTile(previousMousePos))
             inaccessibleMap.SetTile(previousMousePos, inaccessibleTile);
 
+        // Highlight hovered over tile
         if (!mousePos.Equals(previousMousePos) && inaccessibleMap.HasTile(mousePos))
         {
-            // Highlight hovered over tile
             inaccessibleMap.SetTile(mousePos, null);
             inaccessibleMap.SetTile(mousePos, hoverTile);
             previousMousePos = mousePos;
