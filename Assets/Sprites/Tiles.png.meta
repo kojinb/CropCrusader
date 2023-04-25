@@ -1,103 +1,7 @@
 fileFormatVersion: 2
-guid: 6c8d773bb8beaf441b20c76903a4b19a
+guid: f82dc209c96ec47d18cda82005617fec
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -5199717756987311446
-    second: rpg_sprite_walk_0
-  - first:
-      213: 6615295489675062555
-    second: rpg_sprite_walk_1
-  - first:
-      213: 5670624613609038714
-    second: rpg_sprite_walk_2
-  - first:
-      213: 1513109097327740569
-    second: rpg_sprite_walk_3
-  - first:
-      213: -4752624300361060684
-    second: rpg_sprite_walk_4
-  - first:
-      213: -1361196385114700345
-    second: rpg_sprite_walk_5
-  - first:
-      213: -2580988045703703335
-    second: rpg_sprite_walk_6
-  - first:
-      213: -8418957137887949243
-    second: rpg_sprite_walk_7
-  - first:
-      213: -4950788224058248150
-    second: rpg_sprite_walk_8
-  - first:
-      213: -8689950064694992531
-    second: rpg_sprite_walk_9
-  - first:
-      213: 4213469869793142158
-    second: rpg_sprite_walk_10
-  - first:
-      213: 6163458646847390814
-    second: rpg_sprite_walk_11
-  - first:
-      213: 1383632117658259588
-    second: rpg_sprite_walk_12
-  - first:
-      213: 3991534958695997967
-    second: rpg_sprite_walk_13
-  - first:
-      213: -8750613769923092246
-    second: rpg_sprite_walk_14
-  - first:
-      213: 5381097669981560663
-    second: rpg_sprite_walk_15
-  - first:
-      213: 5933915095636961588
-    second: rpg_sprite_walk_16
-  - first:
-      213: -2304478355712927884
-    second: rpg_sprite_walk_17
-  - first:
-      213: -4524224290235928258
-    second: rpg_sprite_walk_18
-  - first:
-      213: 6640229747099119794
-    second: rpg_sprite_walk_19
-  - first:
-      213: -733294616730446126
-    second: rpg_sprite_walk_20
-  - first:
-      213: 2861118978561074978
-    second: rpg_sprite_walk_21
-  - first:
-      213: 8483286295808805334
-    second: rpg_sprite_walk_22
-  - first:
-      213: 8509370178103424221
-    second: rpg_sprite_walk_23
-  - first:
-      213: -3108294671364701189
-    second: rpg_sprite_walk_24
-  - first:
-      213: 537939104702803317
-    second: rpg_sprite_walk_25
-  - first:
-      213: -3650750091983189511
-    second: rpg_sprite_walk_26
-  - first:
-      213: -401159956553634609
-    second: rpg_sprite_walk_27
-  - first:
-      213: -5621384414994474280
-    second: rpg_sprite_walk_28
-  - first:
-      213: 657389516582424150
-    second: rpg_sprite_walk_29
-  - first:
-      213: -5230416857911471641
-    second: rpg_sprite_walk_30
-  - first:
-      213: -2721951697271019414
-    second: rpg_sprite_walk_31
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -129,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -166,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -190,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -202,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -214,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -225,673 +129,799 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rpg_sprite_walk_0
+      name: Tiles_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 24
-        height: 32
+        x: 14
+        y: 1193
+        width: 52
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaafa72df34e6d7b0800000000000000
-      internalID: -5199717756987311446
+      spriteID: 1884a8ed417d141eb93eb4ef56124022
+      internalID: 1271810723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_1
+      name: Tiles_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 96
-        width: 24
-        height: 32
+        x: 78
+        y: 1194
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d6352d2304ecb50800000000000000
-      internalID: 6615295489675062555
+      spriteID: f6090a86946b7495dbae77bca2f92a6c
+      internalID: 2143611641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_2
+      name: Tiles_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
-        width: 24
-        height: 32
+        x: 138
+        y: 1194
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73e0c4ba0b12be40800000000000000
-      internalID: 5670624613609038714
+      spriteID: bbd1154c2ff9941c58adc111d1f0a82e
+      internalID: 21545633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_3
+      name: Tiles_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 96
-        width: 24
-        height: 32
+        x: 197
+        y: 1194
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996c1ac05b4aff410800000000000000
-      internalID: 1513109097327740569
+      spriteID: a98a83d9922824bfda2ba28b660c4e3e
+      internalID: -1467563764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_4
+      name: Tiles_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 24
-        height: 32
+        x: 252
+        y: 1193
+        width: 52
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bee61a11694b0eb0800000000000000
-      internalID: -4752624300361060684
+      spriteID: 81b9179498f494bb4b00d073a17d6220
+      internalID: 983495599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_5
+      name: Tiles_5
       rect:
         serializedVersion: 2
-        x: 120
-        y: 96
-        width: 24
-        height: 32
+        x: 15
+        y: 1139
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c541b3891f0c1de0800000000000000
-      internalID: -1361196385114700345
+      spriteID: 6e11df9588bbe4d1295e7eb42d495080
+      internalID: 1433969054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_6
+      name: Tiles_6
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
-        width: 24
-        height: 32
+        x: 253
+        y: 1139
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d41d4e0c0d7e2cd0800000000000000
-      internalID: -2580988045703703335
+      spriteID: 44f430fb2870140a6b0c82043b8177a1
+      internalID: 1217489563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_7
+      name: Tiles_7
       rect:
         serializedVersion: 2
-        x: 168
-        y: 96
-        width: 24
-        height: 32
+        x: 15
+        y: 1071
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54e03f0b61bd92b80800000000000000
-      internalID: -8418957137887949243
+      spriteID: 2c7009d23da3f450a8eb780843510f84
+      internalID: 1707076039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_8
+      name: Tiles_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 24
-        height: 32
+        x: 253
+        y: 1071
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2432d237544b4bb0800000000000000
-      internalID: -4950788224058248150
+      spriteID: ba1db8bdc5d87494cbde6b0a21b54321
+      internalID: 1533432701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_9
+      name: Tiles_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 64
-        width: 24
-        height: 32
+        x: 15
+        y: 998
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61e8fd1578176780800000000000000
-      internalID: -8689950064694992531
+      spriteID: 693101c96e76c40028ef1c75f7f7d5b4
+      internalID: -538634835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_10
+      name: Tiles_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 24
-        height: 32
+        x: 253
+        y: 998
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e85e4dcc580497a30800000000000000
-      internalID: 4213469869793142158
+      spriteID: 6b87de58a42a44883a81d3f0aa4f30ef
+      internalID: 1189132721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_11
+      name: Tiles_11
       rect:
         serializedVersion: 2
-        x: 72
-        y: 64
-        width: 24
-        height: 32
+        x: 14
+        y: 936
+        width: 52
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e540621ebf0098550800000000000000
-      internalID: 6163458646847390814
+      spriteID: 938310eeb278f457a980be0a2ed321c5
+      internalID: 277269406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_12
+      name: Tiles_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 24
-        height: 32
+        x: 77
+        y: 938
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48097d88416a33310800000000000000
-      internalID: 1383632117658259588
+      spriteID: 7c63dd37e14014d68a288e84bf8675d4
+      internalID: -31606866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_13
+      name: Tiles_13
       rect:
         serializedVersion: 2
-        x: 120
-        y: 64
-        width: 24
-        height: 32
+        x: 138
+        y: 938
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02e0a995e7c46730800000000000000
-      internalID: 3991534958695997967
+      spriteID: d8294b344902f42d18580cea561b6946
+      internalID: -1825537699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_14
+      name: Tiles_14
       rect:
         serializedVersion: 2
-        x: 144
-        y: 64
-        width: 24
-        height: 32
+        x: 197
+        y: 938
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0a71593239f8680800000000000000
-      internalID: -8750613769923092246
+      spriteID: 5f40eceee673a4bfbb85bbd3c2314d01
+      internalID: 659402532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_15
+      name: Tiles_15
       rect:
         serializedVersion: 2
-        x: 168
-        y: 64
-        width: 24
-        height: 32
+        x: 253
+        y: 936
+        width: 52
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fdee012df7daa40800000000000000
-      internalID: 5381097669981560663
+      spriteID: 052f0c53854324db88d5ca9578508db1
+      internalID: 118341671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_16
+      name: Tiles_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 24
-        height: 32
+        x: 39
+        y: 794
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439e4ca1750895250800000000000000
-      internalID: 5933915095636961588
+      spriteID: f46de452d69b044e18b13bf5fb0cc8e2
+      internalID: 766913428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_17
+      name: Tiles_17
       rect:
         serializedVersion: 2
-        x: 24
-        y: 32
-        width: 24
-        height: 32
+        x: 191
+        y: 794
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47797272529d400e0800000000000000
-      internalID: -2304478355712927884
+      spriteID: 61e4d32368fbf4b6fbde864add52d717
+      internalID: 875052038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_18
+      name: Tiles_18
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 24
-        height: 32
+        x: 336
+        y: 794
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e313b487af9b631c0800000000000000
-      internalID: -4524224290235928258
+      spriteID: db5c74c4e59ed462abe144d364b109e0
+      internalID: 185173995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_19
+      name: Tiles_19
       rect:
         serializedVersion: 2
-        x: 72
-        y: 32
-        width: 24
-        height: 32
+        x: 39
+        y: 645
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b033d606c5d62c50800000000000000
-      internalID: 6640229747099119794
+      spriteID: d4f9f3dc565784c6fbbf36027210d1e4
+      internalID: 204152160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_20
+      name: Tiles_20
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 24
-        height: 32
+        x: 191
+        y: 645
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d653166e60d2d5f0800000000000000
-      internalID: -733294616730446126
+      spriteID: fa7372772ccf348e4b23cbdf62ee20cd
+      internalID: 504437219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_21
+      name: Tiles_21
       rect:
         serializedVersion: 2
-        x: 120
-        y: 32
-        width: 24
-        height: 32
+        x: 336
+        y: 645
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 227e2495d8cb4b720800000000000000
-      internalID: 2861118978561074978
+      spriteID: ca48c666596434f13a7ca473664a7bc9
+      internalID: -1334409256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_22
+      name: Tiles_22
       rect:
         serializedVersion: 2
-        x: 144
-        y: 32
-        width: 24
-        height: 32
+        x: 39
+        y: 494
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d98f9d80ffaab570800000000000000
-      internalID: 8483286295808805334
+      spriteID: 3bae3b2f8e31f44069605c0ec18eea6b
+      internalID: -1914271043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_23
+      name: Tiles_23
       rect:
         serializedVersion: 2
-        x: 168
-        y: 32
-        width: 24
-        height: 32
+        x: 189
+        y: 494
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd43828a71b571670800000000000000
-      internalID: 8509370178103424221
+      spriteID: de322e39de15744d0b32f7ba500ca570
+      internalID: -1769918639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_24
+      name: Tiles_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 32
+        x: 339
+        y: 494
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf34110077e1dd4d0800000000000000
-      internalID: -3108294671364701189
+      spriteID: b74ae2c996e4547e3b0e923790b15336
+      internalID: -1659416832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_25
+      name: Tiles_25
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 32
+        x: 487
+        y: 494
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d2a9ef3c4277700800000000000000
-      internalID: 537939104702803317
+      spriteID: 7cecdae183618429a9341807bbc48b95
+      internalID: 1943212930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_26
+      name: Tiles_26
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 32
+        x: 39
+        y: 345
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f90e93422ee55dc0800000000000000
-      internalID: -3650750091983189511
+      spriteID: 0b2977438dbf24618964a2f9e7e8c65b
+      internalID: -486046162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_27
+      name: Tiles_27
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 32
+        x: 189
+        y: 345
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc628b152bce6af0800000000000000
-      internalID: -401159956553634609
+      spriteID: 38caf00e5cc6b42a9bb07abf59980f45
+      internalID: 1633269234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_28
+      name: Tiles_28
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 32
+        x: 339
+        y: 345
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da565e68a4dcf1b0800000000000000
-      internalID: -5621384414994474280
+      spriteID: 2a77753944fc842ac96d05b7e6a9a106
+      internalID: 737887196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_29
+      name: Tiles_29
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 32
+        x: 487
+        y: 345
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65e06f648448f1900800000000000000
-      internalID: 657389516582424150
+      spriteID: 4593dd3b2cbd34040a4224261c75061a
+      internalID: -546485673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_30
+      name: Tiles_30
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 24
-        height: 32
+        x: 39
+        y: 175
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1d8f46493d967b0800000000000000
-      internalID: -5230416857911471641
+      spriteID: 0c37acf9a3e4147399fe0e59637180a9
+      internalID: 1021212569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_31
+      name: Tiles_31
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 32
+        x: 189
+        y: 175
+        width: 125
+        height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68a3645a5fa93ad0800000000000000
-      internalID: -2721951697271019414
+      spriteID: 4956a98cbaddd4d389b8aea70ac5037f
+      internalID: 562554399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 175
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1077cf20073ae4387b23e764af5b40b1
+      internalID: 869385196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 175
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b912eb7ba34c6416faf06486b2ea010d
+      internalID: -1105803875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 26
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d905792ce964497f8d951c733c9db57
+      internalID: 1870928313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 26
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c423f6bf726bb4990864e06f4cce8ac1
+      internalID: -548267785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 26
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdce969fc40d142878c95b3affc252f4
+      internalID: -783326469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 26
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fade05547ebdf4d4785f6ea2f36a2ac6
+      internalID: -910722264
       vertices: []
       indices: 
       edges: []
@@ -907,38 +937,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rpg_sprite_walk_15: 5381097669981560663
-      rpg_sprite_walk_23: 8509370178103424221
-      rpg_sprite_walk_4: -4752624300361060684
-      rpg_sprite_walk_18: -4524224290235928258
-      rpg_sprite_walk_3: 1513109097327740569
-      rpg_sprite_walk_31: -2721951697271019414
-      rpg_sprite_walk_11: 6163458646847390814
-      rpg_sprite_walk_24: -3108294671364701189
-      rpg_sprite_walk_25: 537939104702803317
-      rpg_sprite_walk_9: -8689950064694992531
-      rpg_sprite_walk_1: 6615295489675062555
-      rpg_sprite_walk_17: -2304478355712927884
-      rpg_sprite_walk_5: -1361196385114700345
-      rpg_sprite_walk_16: 5933915095636961588
-      rpg_sprite_walk_29: 657389516582424150
-      rpg_sprite_walk_0: -5199717756987311446
-      rpg_sprite_walk_13: 3991534958695997967
-      rpg_sprite_walk_21: 2861118978561074978
-      rpg_sprite_walk_27: -401159956553634609
-      rpg_sprite_walk_19: 6640229747099119794
-      rpg_sprite_walk_20: -733294616730446126
-      rpg_sprite_walk_30: -5230416857911471641
-      rpg_sprite_walk_14: -8750613769923092246
-      rpg_sprite_walk_2: 5670624613609038714
-      rpg_sprite_walk_6: -2580988045703703335
-      rpg_sprite_walk_7: -8418957137887949243
-      rpg_sprite_walk_12: 1383632117658259588
-      rpg_sprite_walk_26: -3650750091983189511
-      rpg_sprite_walk_22: 8483286295808805334
-      rpg_sprite_walk_28: -5621384414994474280
-      rpg_sprite_walk_10: 4213469869793142158
-      rpg_sprite_walk_8: -4950788224058248150
+      Tiles_2: 21545633
+      Tiles_29: -546485673
+      Tiles_21: -1334409256
+      Tiles_24: -1659416832
+      Tiles_32: 869385196
+      Tiles_1: 2143611641
+      Tiles_14: 659402532
+      Tiles_0: 1271810723
+      Tiles_5: 1433969054
+      Tiles_28: 737887196
+      Tiles_18: 185173995
+      Tiles_35: -548267785
+      Tiles_25: 1943212930
+      Tiles_6: 1217489563
+      Tiles_9: -538634835
+      Tiles_17: 875052038
+      Tiles_7: 1707076039
+      Tiles_31: 562554399
+      Tiles_4: 983495599
+      Tiles_16: 766913428
+      Tiles_23: -1769918639
+      Tiles_30: 1021212569
+      Tiles_26: -486046162
+      Tiles_13: -1825537699
+      Tiles_33: -1105803875
+      Tiles_37: -910722264
+      Tiles_20: 504437219
+      Tiles_11: 277269406
+      Tiles_12: -31606866
+      Tiles_22: -1914271043
+      Tiles_19: 204152160
+      Tiles_15: 118341671
+      Tiles_34: 1870928313
+      Tiles_3: -1467563764
+      Tiles_8: 1533432701
+      Tiles_27: 1633269234
+      Tiles_36: -783326469
+      Tiles_10: 1189132721
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
