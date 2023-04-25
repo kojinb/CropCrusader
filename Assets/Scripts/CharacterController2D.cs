@@ -23,13 +23,15 @@ public class CharacterController2D : MonoBehaviour
         motionVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         animator.SetFloat("horizontal", Input.GetAxisRaw("Horizontal"));
         animator.SetFloat("vertical", Input.GetAxisRaw("Vertical"));
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
         Move();
     }
+
+
+    // Update is called once per frame
+    //void FixedUpdate()
+    //{
+    //    Move();
+    //}
 
     private void Move()
     {
