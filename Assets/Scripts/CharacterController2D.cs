@@ -22,11 +22,6 @@ public class CharacterController2D : MonoBehaviour
     private void Update()
     {
         motionVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        Debug.Log(motionVector);
-        if (motionVector.x.Equals(0))
-        {
-            Debug.Log("not moving");
-        }
         animator.SetFloat("horizontal", Input.GetAxisRaw("Horizontal"));
         animator.SetFloat("vertical", Input.GetAxisRaw("Vertical"));
     }
