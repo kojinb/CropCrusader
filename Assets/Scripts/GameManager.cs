@@ -15,14 +15,12 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
             EventBus.Publish<TestEventBusEvent>(new TestEventBusEvent("THIS IS A TEST"));
-        
     }
 
     void _OnTest(TestEventBusEvent e)
     {
         Debug.Log(e.message);
     }
-
 }
 
 public class TestEventBusEvent{

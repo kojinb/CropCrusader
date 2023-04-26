@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -16,7 +17,7 @@ public class ChangeTileOnClick : MonoBehaviour
     [SerializeField]
     Tilemap inaccessibleMap;
 
-    private Vector3Int previousCenterTile = new Vector3Int(); 
+    private Vector3Int previousCenterTile = new Vector3Int();
 
     // Update is called once per frame
     void Update()
@@ -37,10 +38,40 @@ public class ChangeTileOnClick : MonoBehaviour
             previousCenterTile = centerTile;
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && PlayerManager.Instance.landCost <= PlayerManager.Instance.gold)
         {
+            PlayerManager.Instance.PurchaseLand();
             SetGrid(centerTile, accessibleTile);
         }
+    }
+
+    void SetGrid(Vector3Int centerTile, Tile tile)
+    {
+        for (int x = centerTile.x - 1; x <= centerTile.x + 1; x++)
+        {
+            for (int y = centerTile.y - 1; y <= centerTile.y + 1; y++)
+            {
+                Vector3Int coord = new Vector3Int(x, y, 0);
+                inaccessibleMap.SetTile(coord, null);
+
+                if (tile == inaccessibleTile || tile == hoverTile)
+                {
+                    inaccessibleMap.SetTile(coord, tile);
+                }
+                else if (tile == accessibleTile)
+                {
+                    accessibleMap.SetTile(coord, tile);
+                }
+            }
+        }
+    }
+
+    Vector3Int ObtainCenterTile(int x, int y)
+    {
+        int x_result = ObtainCenter(x);
+        int y_result = ObtainCenter(y);
+
+        return new Vector3Int(x_result, y_result, 0);
     }
 
     int ObtainCenter(int val)
@@ -56,35 +87,6 @@ public class ChangeTileOnClick : MonoBehaviour
                 return val - 1;
             default:
                 return val;
-        }
-    }
-
-    Vector3Int ObtainCenterTile(int x, int y)
-    {
-        int x_result = ObtainCenter(x);
-        int y_result = ObtainCenter(y);
-
-        return new Vector3Int(x_result, y_result, 0);
-    }
-
-    void SetGrid(Vector3Int centerTile, Tile tile)
-    {
-        for (int x = centerTile.x - 1; x <= centerTile.x + 1; x++)
-        {
-            for (int y = centerTile.y - 1; y <= centerTile.y + 1; y++)
-            {
-                Vector3Int coord = new Vector3Int(x, y, 0);
-                inaccessibleMap.SetTile(coord, null);
-
-                if (tile == inaccessibleTile || tile == hoverTile)
-                {
-                    inaccessibleMap.SetTile(coord, tile);
-                } 
-                else if (tile == accessibleTile)
-                {
-                    accessibleMap.SetTile(coord, tile);
-                } 
-            }
         }
     }
 

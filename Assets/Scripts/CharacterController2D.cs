@@ -9,7 +9,7 @@ using UnityEngine.Scripting.APIUpdating;
 public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    [SerializeField] float speed = 2f;
+    [SerializeField] float speed = 3f;
     Vector2 motionVector;
     Animator animator;
 
